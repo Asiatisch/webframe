@@ -1,15 +1,14 @@
-@import "../node_modules/bootstrap/scss/functions";
-$enables-rounded: false;
-$enables-shadows: true;
-//theme colour
-$primary: rgb(13, 31, 226);
-$secondary: rgb(103, 172, 180);
-$dark: rgb(0, 0, 0);
-$light: rgb(255, 255, 255);
+$primary: rgb(51, 26, 105);
+$secondary: rgb(74, 57, 109);
+//spacer
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, );
+//variables
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
-//custom colour
-$custom-colour: ( "primary-light": rgb(10, 124, 255), "secondary-light": rgb(103, 172, 180));
-// merge colours
-$theme-colors: map-merge($theme-colors, $custom-colour);
+//custom colours
+$custom-colors: ( "contrast": rgb(255, 187, 0), );
+// merge
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: map-remove($theme-colors, "danger", "warning", "sucess", "info");
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
