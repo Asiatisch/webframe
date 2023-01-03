@@ -7,8 +7,12 @@ $spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 //custom colours
-$custom-colors: ( "contrast": rgb(255, 187, 0), );
+
+/* $custom-colors: ( "contrast": rgb(255, 187, 0), ); */
+
 // merge
-$theme-colors: map-merge($theme-colors, $custom-colors);
-$theme-colors: map-remove($theme-colors, "danger", "warning", "sucess", "info");
+
+/* $theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: map-remove($theme-colors, "danger", "warning", "sucess", "info"); */
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
