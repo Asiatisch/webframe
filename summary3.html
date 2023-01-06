@@ -31,200 +31,214 @@
     </nav>
 
     <div class="container-lg bg-primary t">
-        <div class="col">
-            <h3 class="fw-medium text-light">Bll Burr comedy Show</h3>
-            <a href="summary3.html"><img class="w-1000" src="images/adimage2big.jpg" alt="event" /></a>
+            <div class="row d-flex">
+                <div class="col">
+                    <h3 class="fw-medium text-light">Bill Burr Comedy Show</h3>
+                    <a href="summary3.html"><img class="w-1000 img-fluid" src="images/adimage2big.jpg" alt="event" /></a>
 
                 <h5 class="fw-medium text-light">
-                    Bll Burr comedy Show
-                    <i class="bi bi-calendar-check"></i>
+                    Bill Burr Comedy Show
+                </h5>
+                <i class="bi bi-calendar-check"></i>
             </div>
             <div class="row d-flex">
-                <div class="col-9">
+                <div class="col">
                     <hr class="border border-light border" />
-                    <p class="fw-medium text-light">Free cancelations before Jan 9</p>
-                    <hr class="border border-light border" />
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <h5 class="card-header">£150</h5>
-                        <div class="row d-flex">
-                            <h5 class="card-header col">check in</h5>
-                            <h5 class="card-header col">check out</h5>
-                        </div>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-							ticket
-						</button>
+                    <div class="d-flex ">
+                        <p class="fw-medium text-light me-3">Free cancelations before Jan 9</p>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">
-                                            ticket
-                                        </h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="model-text">
-                                            <p class="col fw-bold">
-                                                Adults 18+ =£150
-                                                <button type="button" class="btn btn-secondary">
-													+
-												</button>
-                                                <button type="button" class="btn btn-secondary">
-													-
-												</button>
-                                            </p>
-                                            <p class="col fw-bold">
-                                                Student ( identification required ) = £120
-                                                <button type="button" class="btn btn-secondary">
-													+
-												</button>
-                                                <button type="button" class="btn btn-secondary">
-													-
-												</button>
-                                            </p>
-                                            <p class="col fw-bold">
-                                                teens= £100
-                                                <button type="button" class="btn btn-secondary">
-													+
-												</button>
-                                                <button type="button" class="btn btn-secondary">
-													-
-												</button>
-                                            </p>
-                                            <p class="col fw-bold">
-                                                kids= £150
-                                                <button type="button" class="btn btn-secondary">
-													+
-												</button>
-                                                <button type="button" class="btn btn-secondary">
-													-
-												</button>
-                                            </p>
+                        <!-- <hr class="border border-light border" /> -->
+                        <div class="col-3">
+                            <div class="card card-body-fluid">
+                                <h5 class="card-header"> Cost of Ticket : £150</h5>
+                                <div class="row d-flex">
+                                    <h5 class="card-header col"><button type="button" class="btn btn-outline-dark">Check In - 8/2/2022 </button></h5>
+                                    <h5 class="card-header col"><button type="button" class="btn btn-outline-dark">Check Out - 8/2/2022 </button></h5>
+                                </div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-dark m-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                ticket
+                            </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5 text-danger " id="exampleModalLabel">
+                                                    ticket selection and purchase
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="model-text">
+                                                    <h5> Adult ticket Prices</h5>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text">$</span>
+                                                        <span class="input-group-text">150.00</span>
+                                                        <input type="text" class="form-control" placeholder="Number of tickets you want to buy" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
+                                                    </div>
+
+                                                    <h5> Teen ticket Prices</h5>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text">$</span>
+                                                        <span class="input-group-text">125.00</span>
+                                                        <input type="text" class="form-control" placeholder="Number of tickets you want to buy" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
+                                                    </div>
+
+                                                    <h5> Kid ticket Prices</h5>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text">$</span>
+                                                        <span class="input-group-text">150.00</span>
+                                                        <input type="text" class="form-control" placeholder="Number of tickets you want to buy" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
+                                                    </div>
+
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon1">
+                                                    </div>
+
+                                                    <div class="input-group mb-3">
+                                                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                                                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">Address</span>
+                                                        <input type="text" class="form-control" placeholder=" 123 homestreet" aria-label="123 homestreet" aria-describedby="basic-addon1">
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">Phone Number</span>
+                                                        <input type="text" class="form-control" placeholder="123456789" aria-label="123456789" aria-describedby="basic-addon1">
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">Eircode</span>
+                                                        <input type="text" class="form-control" placeholder="123-AWE" aria-label="123-AWE" aria-describedby="basic-addon1">
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+											Close
+										
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-											Close
-										</button>
-                                        <button type="button" class="btn btn-primary">
-											Save changes
-										</button>
+                                </div>
+                                <button type="button" class="btn btn-danger m-3">purchase</button>
+
+                                                <div class="card-body">
+                                                    <div class="card-text"></div>
+                                                    <hr />
+                                                    <p class="fw-bold">total £________________________</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <hr class="border border-light border" />
+                                <h3 class="fw-medium text-light">Skyshield</h3>
+                                <p class="text-light">
+                                    Every Booking includes free protection from Host Cancelation, listing inaccuracies and other issues like troubling checking in.
+                                </p>
+                                <h4 class="fw-medium text-light">Learn more</h4>
+                                <hr class="border border-light border" />
+                            </div>
+                            <div>
+                                <p class="text-light">
+                                    Lorem ipsum dolor sit amet consectetur. Faucibus id eros nisl fusce ut faucibus egestas. Lorem dignissim sed velit dui. Lectus eleifend auctor id viverra. Senectus rhoncus consequat lectus tincidunt egestas. Ut ullamcorper urna aenean suspendisse dis.
+                                    Orci sit elit pharetra sed aliquam. Volutpat placerat turpis non fames commodo pulvinar tempor. Aliquet eu et eget nec urna et egestas habitant. Morbi nunc libero lorem ultrices pretium tincidunt.
+                                </p>
+                                <h4 class="fw-medium text-light">Learn more</h4>
+                                <hr class="border border-light border" />
+                            </div>
+                            <div>
+                                <h4 class="fw-medium text-light">What the place offers</h4>
+                                <div class="container-lg text-light">
+                                    <div class="row d-flex">
+                                        <p class="col">parking</p>
+                                        <p class="col">bars</p>
+                                    </div>
+                                    <div class="row d-flex">
+                                        <p class="col">free wifi</p>
+                                        <p class="col">restaraunts</p>
+                                    </div>
+                                    <div class="row d-flex">
+                                        <p class="col">
+                                            Public outdoor pool- available seasonally open 24 hours
+                                        </p>
+                                        <p class="col">Arcades</p>
+                                    </div>
+                                    <div class="row d-flex">
+                                        <p class="col">Shopping centres</p>
+                                        <p class="col">VIP Lounge</p>
+                                    </div>
+                                    <div class="row d-flex">
+                                        <p class="col">Sporting Facilities</p>
+                                        <p class="col">Outdoor Kitchen</p>
+                                    </div>
+                                    <button type="button" class="btn btn-light fw-bold">
+							Show All Amenities
+						</button>
+                                    <hr class="border border-light border" />
+                                </div>
+                            </div>
+                            <div class="container-lg">
+                                <h3 class="fw-bold text-light">5 nights at Location</h3>
+                                <img class="border border-white img-fluid" src="images/calendar.jpg" alt="calendar" /img>
+                                <p class="fw-bold text-light"><u>clear date</u></p>
+                                <hr class="border border-light border" />
+                            </div>
+                            <div class="container-lg col">
+                                <h3 class="fw-bold text-light">Where you'll be</h3>
+                                <p class="fw-bold text-light">Location</p>
+                                <a href="https://www.google.com/maps/"><img class="img-fluid" src="images/location.jpg" alt="map" /></a>
+                                <hr class="border border-light border" />
+                            </div>
+                            <div class="container-lg bg-black">
+                                <div class="row d-flex">
+                                    <div class="col">
+                                        <p class="fw-bold text-light">title</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="fw-bold text-light">title</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="fw-bold text-light">title</p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex">
+                                    <div class="col">
+                                        <p class="text-light">title</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-light">title</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-light">title</p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex">
+                                    <div class="col">
+                                        <p class="text-light">title</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-light">title</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-light">title</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-danger">purchase</button>
-
-                        <div class="card-body">
-                            <div class="card-text"></div>
-                            <hr />
-                            <p class="fw-bold">total £________________________</p>
-                        </div>
                     </div>
-                </div>
-                <div>
-                    <hr class="border border-light border" />
-                    <h3 class="fw-medium text-light">Skyshield</h3>
-                    <p class="text-light">
-                        Every Booking includes free protection from Host Cancelation, listing inaccuracies and other issues like troubling checking in.
-                    </p>
-                    <h4 class="fw-medium text-light">Learn more</h4>
-                    <hr class="border border-light border" />
-                </div>
-                <div>
-                    <p class="text-light">
-                        Lorem ipsum dolor sit amet consectetur. Faucibus id eros nisl fusce ut faucibus egestas. Lorem dignissim sed velit dui. Lectus eleifend auctor id viverra. Senectus rhoncus consequat lectus tincidunt egestas. Ut ullamcorper urna aenean suspendisse dis.
-                        Orci sit elit pharetra sed aliquam. Volutpat placerat turpis non fames commodo pulvinar tempor. Aliquet eu et eget nec urna et egestas habitant. Morbi nunc libero lorem ultrices pretium tincidunt.
-                    </p>
-                    <h4 class="fw-medium text-light">Learn more</h4>
-                    <hr class="border border-light border" />
-                </div>
-                <div>
-                    <h4 class="fw-medium text-light">What the place offers</h4>
-                    <div class="container-lg text-light">
-                        <div class="row d-flex">
-                            <p class="col">parking</p>
-                            <p class="col">bars</p>
-                        </div>
-                        <div class="row d-flex">
-                            <p class="col">free wifi</p>
-                            <p class="col">restaraunts</p>
-                        </div>
-                        <div class="row d-flex">
-                            <p class="col">
-                                Public outdoor pool- available seasonally open 24 hours
-                            </p>
-                            <p class="col">Arcades</p>
-                        </div>
-                        <div class="row d-flex">
-                            <p class="col">Shopping centres</p>
-                            <p class="col">VIP Lounge</p>
-                        </div>
-                        <div class="row d-flex">
-                            <p class="col">Sporting Facilities</p>
-                            <p class="col">Outdoor Kitchen</p>
-                        </div>
-                        <button type="button" class="btn btn-light fw-bold">
-							Show All Amenities
-						</button>
-                        <hr class="border border-light border" />
-                    </div>
-                </div>
-                <div class="container-lg">
-                    <h3 class="fw-bold text-light">5 nights at Location</h3>
-                    <img class="border border-white" src="images/calendar.jpg" alt="calendar" /img>
-                    <p class="fw-bold text-light"><u>clear date</u></p>
-                    <hr class="border border-light border" />
-                </div>
-                <div class="container-lg col">
-                    <h3 class="fw-bold text-light">Where you'll be</h3>
-                    <p class="fw-bold text-light">Location</p>
-                    <a href="https://www.google.com/maps/"><img src="images/location.jpg" alt="map" /></a>
-                    <hr class="border border-light border" />
-                </div>
-                <div class="container-lg bg-black">
-                    <div class="row d-flex">
-                        <div class="col">
-                            <p class="fw-bold text-light">title</p>
-                        </div>
-                        <div class="col">
-                            <p class="fw-bold text-light">title</p>
-                        </div>
-                        <div class="col">
-                            <p class="fw-bold text-light">title</p>
-                        </div>
-                    </div>
-                    <div class="row d-flex">
-                        <div class="col">
-                            <p class="text-light">title</p>
-                        </div>
-                        <div class="col">
-                            <p class="text-light">title</p>
-                        </div>
-                        <div class="col">
-                            <p class="text-light">title</p>
-                        </div>
-                    </div>
-                    <div class="row d-flex">
-                        <div class="col">
-                            <p class="text-light">title</p>
-                        </div>
-                        <div class="col">
-                            <p class="text-light">title</p>
-                        </div>
-                        <div class="col">
-                            <p class="text-light">title</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 " crossorigin="anonymous "></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 " crossorigin="anonymous "></script>
 </body>
 
 </html>
